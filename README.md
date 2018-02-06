@@ -28,7 +28,7 @@ FILE NAME               DESCRIPTION
 - login.php               Form for Admin log in
 - logoff.php              Page that confirms Admin has logged off
 - menubar.php             Insert file with the basic menu bar for page navigation
-- passwordhash.php        Test algorithm that 
+- passwordhash.php        Test algorithm that compares results using the new PHP7 hash algorithm vs. the old method
 - setup.php               Script that creates the tables used (this is only run once for testing purposes, to be disused in the final version)
 - submit-comment.php      Page that confirms comment submitted to Admin
 - uninstall.php           Script that drops the tables in use (only for test purposes)
