@@ -1,0 +1,43 @@
+DESCRIPTION OF FILES
+--------------------
+
+INCLUDE FILES
+footer.php -> Contains the footer text for all pages
+menubar.php -> Contains the menu at the top of (most) pages
+
+ADMIN FILES
+addrescue.php -> Adds rescue animal to database
+admin.php -> Administrator panel
+adoptionlist.php -> List what animals are up for adoption or have been adopted
+editrescue.php -> Edits current records
+login.php -> Logs user in
+logoff.php -> Logs user off
+viewcomments.php -> Views comment in the database
+viewdonations.php -> Views donations in the database
+addconfirm.php -> Confirms addition of rescue animal
+
+PUBLIC FILES
+confirmation.php ->
+connect.php -> used to connect to the database
+contact.php -> form to enter comments
+creditcard.php -> form to enter credit card information
+donate.php -> page that shows general donation information
+index.php -> main page
+submit-comment.php -> form that confirms and submits comment
+
+SETUP FILES
+petdb.sql -> script that creates the necessary database and user
+setup.php -> script that creates the tables needed in the database
+uninstall.php -> script that drops all tables from the database
+cat-breeds.txt -> source file for cat breeds
+dog-breeds.txt -> source file for dog breeds
+
+TEST FILES
+passwordhash.php ->
+phpinfo.php ->
+testread.php ->
+
+CSS
+main.css -> contains elements used by common pages
+admin.css -> contains elements used by the admin panel
+view.css -> contains elements used by data inclusion pages

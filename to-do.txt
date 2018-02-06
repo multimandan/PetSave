@@ -1,0 +1,97 @@
+Dec 23 2017
+Pending items:
+(STATUS: NOT STARTED, WORK IN PROGRESS, TESTING, COMPLETED, CANCELLED)
+
+1. Implement and test Password encrypt/decrypt algorithm
+STATUS: COMPLETED
+-- Password encrypt/decrypt algorithm: COMPLETED
+-- Inclusion of hashed password into user database: COMPLETED
+-- Files: login.php, admin.php, changepassword.php
+
+2. Implement and test session generation with successful Login / unsuccessful Login acknowledgment
+STATUS: COMPLETED
+-- Files: admin.php, viewcomments.php, viewdonations.php, viewusers.php, adoptionlist.php, changepassword.php, logoff.php
+
+3. Implement and test session termination due to inactivity (try 2 minutes first, then increment to 30 minute default)
+STATUS: CANCELLED
+-- Files: admin.php, viewcomments.php, viewdonations.php, viewusers.php, adoptionlist.php, changepassword.php, logoff.php
+
+4. Implement and test session termination due to admin logging off
+STATUS: COMPLETED
+-- Files: admin.php, viewcomments.php, viewdonations.php, viewusers.php, adoptionlist.php, changepassword.php, logoff.php
+
+5. Implement and test password change form
+STATUS: COMPLETED
+-- Form: COMPLETED
+-- Update database: COMPLETED
+-- Files: changepassword.php
+
+6. Implement and test form - data inclusion into database
+STATUS: COMPLETED
+-- Files: contact.php, adoptionlist.php, creditcard.php, confirmation.php
+
+7. Implement and test pet inclusion in database
+STATUS: WORK IN PROGRESS
+-- Files: addrescue-dog.php, addrescue-cat.php
+
+8. Implement and test pet edit in database
+STATUS: WORK IN PROGRESS
+-- Files: editrescue.php
+
+9. Implement and test pet list view displayed to users and admin
+STATUS: WORK IN PROGRESS
+
+10. Implement and test donation submission
+STATUS: COMPLETED
+-- Form: COMPLETED
+-- Form verification: COMPLETED
+-- Form submission and confirmation: COMPLETED
+
+11. Implement and test donation meter display
+STATUS: CANCELLED
+
+12. Implement and test Photo upload tool
+STATUS: NOT STARTED
+
+13. Implement and test Captcha interface
+STATUS: CANCELLED
+
+14. Implement and test Contact Us form
+STATUS: COMPLETED
+-- Form: COMPLETED
+
+15. Refine setup.php and uninstall.php
+STATUS: COMPLETED
+
+16. Configure and implement Admin panel
+STATUS: COMPLETED
+-- Main Menu: COMPLETED
+-- Functions: COMPLETED
+---- Alerts: COMPLETED
+-- Thread control - new updates : CANCELLED
+-- Files: admin.php, viewcomments.php, viewdonations.php, viewusers.php, adoptionlist.php, changepassword.php, logoff.php
+
+
+FILE STRUCTURE
+--------------
+
+index.php: COMPLETED
+-- menubar.php: COMPLETED
+-- footer.php: COMPLETED
+-- main.css: COMPLETED
+adopt.php: WORK IN PROGRESS
+mission.php: COMPLETED
+contact.php: WORK IN PROGRESS
+-- submit-contact.php: WORK IN PROGRESS
+admin.php: WORK IN PROGRESS
+-- view-comments.php: WORK IN PROGRESS
+-- view-donations.php: WORK IN PROGRESS
+-- view-users.php: WORK IN PROGRESS
+-- maintain-adoptions.php: WORK IN PROGRESS
+-- change-password.php: WORK IN PROGRESS
+login.php: WORK IN PROGRESS
+donate.php: WORK IN PROGRESS
+-- creditcard.php: WORK IN PROGRESS
+-- confirmation.php: WORK IN PROGRESS
+setup.php: COMPLETED
+uninstall.php: COMPLETED
